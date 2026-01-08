@@ -1,5 +1,9 @@
 # Algorithmic Flora 🌿
 
+**Live Demo: [https://addce.github.io/generative-art/](https://addce.github.io/generative-art/)**
+
+![Algorithmic Flora Preview](assets/gif/generative-art.gif)
+
 An interactive digital forest created using **L-System (Lindenmayer System)** fractal algorithms and **p5.js**.
 
 ## Features
@@ -8,6 +12,16 @@ An interactive digital forest created using **L-System (Lindenmayer System)** fr
 - **Dynamic Seasons**: Smooth transitions between Spring, Summer, Autumn, and Winter with custom color palettes.
 - **Interactive Growth**: Click anywhere on the ground to plant new flora and watch them grow in real-time.
 - **Atmospheric Design**: Gradient backgrounds and ground textures that react to the seasonal slider.
+
+## Seasonal Experiences
+
+Explore the forest as it transforms through the cycle of the year:
+
+| Spring 🌸 | Summer 🌿 |
+| :---: | :---: |
+| ![Spring](assets/img/spring.png) | ![Summer](assets/img/summer.png) |
+| **Autumn 🍂** | **Winter ❄️** |
+| ![Autumn](assets/img/autumn.png) | ![Winter](assets/img/winter.png) |
 
 ## Controls
 
