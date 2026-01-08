@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Algorithmic Flora - An interactive digital forest created using L-System fractal algorithms">
+    <title>Algorithmic Flora</title>
+
+    <!-- p5.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Title -->
+    <h1 class="title">🌿 Algorithmic Flora</h1>
+
+    <!-- p5.js Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Control Panel -->
+    <div class="control-panel">
+        <span class="season-icon spring">🌸</span>
+
+        <div class="slider-container">
+            <span id="season-label">🍂 Autumn</span>
+            <input type="range" id="season-slider" min="0" max="100" value="50">
+        </div>
+
+        <span class="season-icon winter">❄️</span>
+    </div>
+
+    <!-- Keyboard Shortcuts -->
+    <div class="shortcuts">
+        <div><kbd>Click</kbd> Plant a new flora</div>
+        <div><kbd>C</kbd> Clear all plants</div>
+        <div><kbd>R</kbd> Regenerate</div>
+        <div><kbd>1-4</kbd> Quick switch seasons</div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script src="js/lsystem.js"></script>
+    <script src="js/seasons.js"></script>
+    <script src="js/plant.js"></script>
+    <script src="js/sketch.js"></script>
+</body>
+
+</html>
