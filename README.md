@@ -8,10 +8,22 @@ An interactive digital forest created using **L-System (Lindenmayer System)** fr
 
 ## Features
 
-- **Procedural Generation**: Every flora is unique, generated from a seed based on mouse position and time.
-- **Dynamic Seasons**: Smooth transitions between Spring, Summer, Autumn, and Winter with custom color palettes.
-- **Interactive Growth**: Click anywhere on the ground to plant new flora and watch them grow in real-time.
-- **Atmospheric Design**: Gradient backgrounds and ground textures that react to the seasonal slider.
+### 🎮 Interactive Experience
+- **Seed-Based Planting**: Click anywhere on the ground to plant a new flora. Each click generates a unique seed based on the mouse position and current timestamp.
+- **Real-time Growth Animation**: Watch your flora sprout and branch out with a smooth, progressive growth animation.
+- **Dynamic Seasonal Control**: Use the slider or keyboard shortcuts (1-4) to seamlessly interpolate between four distinct seasons.
+- **Canvas Management**: Easily clear your garden (Press `C`) or regenerate a fresh batch of initial plants (Press `R`).
+
+### 🎨 Visual & Aesthetic Logic
+- **Procedural Variety**: Powered by randomized L-System parameters, no two plants are exactly alike in structure or form.
+- **Seasonal Color Interpolation**: Smooth transitioning of background, ground, trunk, and leaf colors using RGB linear interpolation.
+- **Atmospheric Depth**: Gradient backgrounds and ground textures that adjust their mood and lighting based on the time of year.
+- **Modern UI**: A clean, glassmorphism-inspired control panel that stays out of the way of your art.
+
+### ⚙️ Technical Implementation
+- **L-System Core**: A robust Lindenmayer System implementation capable of generating multiple plant archetypes (trees, bushes, ferns).
+- **p5.js Integration**: High-performance canvas rendering and intuitive event handling.
+- **Deterministic Randomness**: Seedable pseudo-random number generator ensures consistency within single plant instances while allowing for vast diversity across the forest.
 
 ## Seasonal Experiences
 
